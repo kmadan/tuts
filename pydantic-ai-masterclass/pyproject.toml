@@ -1,0 +1,21 @@
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "pydantic-ai-masterclass"
+version = "0.1.0"
+description = "pydantic-ai-masterclass-tutorials"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+pydantic-ai = "0.0.15"
+openai = "1.58.1"
+colorama = "0.4.6"
+dataclasses = "0.6"
+devtools = "0.12.2"
+html-to-markdown = "1.1.0"
+python-dotenv = "^1.0.1"
